@@ -208,4 +208,3 @@ make benchmark
 ## Documentation
 
 - [Systems Architecture Deep Dive](docs/ARCHITECTURE.md)
-- [Technical Interview Guide & Resume Talking Points](docs/INTERVIEW_GUIDE.md)
