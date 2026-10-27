@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyredis-engine"
+version = "1.0.0"
+description = "A high-performance in-memory key-value database built from scratch in Python with Asyncio, SkipList ZSets, AOF persistence, and Master-Replica replication."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Systems Engineer" }]
+keywords = ["redis", "database", "key-value", "in-memory", "asyncio", "resp", "storage-engine", "distributed-systems"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Database :: Database Engines/Servers",
+]
+
+[project.scripts]
+pyredis-server = "pyredis.__main__:main"
+pyredis-cli = "pyredis.cli:main"
