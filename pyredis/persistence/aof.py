@@ -11,7 +11,7 @@ from enum import Enum
 import os
 import threading
 import time
-from typing import Callable, List, Optional
+from typing import Any, Callable, List, Optional
 
 from pyredis.protocol import RESPParser, encode_resp
 from pyredis.protocol.types import Array, BulkString

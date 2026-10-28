@@ -5,7 +5,7 @@ Serializes database state to a compact binary file format.
 import os
 import pickle
 import time
-from typing import List, Tuple
+from typing import Any, List
 
 MAGIC_HEADER = b"PYREDIS_RDB_V1\n"
 
